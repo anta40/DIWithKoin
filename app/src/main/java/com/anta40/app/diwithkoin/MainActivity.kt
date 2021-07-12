@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        // Should print "Hello world 12345"
         binding.txtValue.text = session.getStringValue()
     }
 }
